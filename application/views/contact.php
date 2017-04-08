@@ -14,11 +14,10 @@
                     <div class="col-md-6">
                         <center>
                             <h3><strong>CONTACT ME DIRECTLY</strong></h3>
+                            <p><span class="glyphicon glyphicon-map-marker"></span> Caloocan, Philippines</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> +639 484 410 511</p>
+                            <p><span class="glyphicon glyphicon-envelope"></span> frrhmgrgrio@gmail.com</p>
                         </center>
-                        <h2>Farrah Mae Gregorio</h2>
-                        <p><span class="glyphicon glyphicon-map-marker"></span> Caloocan, Philippines</p>
-                        <p><span class="glyphicon glyphicon-phone"></span> +639 484 410 511</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span> frrhmgrgrio@gmail.com</p>
                     </div>
                     <div class="col-md-6">
                         <center>
@@ -49,6 +48,15 @@
                             </span>
                         </a>
                         </center>
+
+                        <div class="col-md-12" style="padding-top: 20px;">
+                        <center>
+                            <h3><strong>HERE'S MY RESUME</strong></h3>
+                            <button type="button" class="btn btn-primary" id="button-dl-resume" style="width: 70%;">
+                                <span class="glyphicon glyphicon-download-alt"></span> FARRAH MAE GREGORIO's resume
+                            </button>
+                        </center>
+                    </div>
                     </div>
                 </div>
                 </div>

@@ -8,10 +8,7 @@
                             <a class="page-scroll color-white" href="#about">About</a>
                         </li>
                         <li class="text-center">
-                            <a class="page-scroll color-white" href="#work">Skills</a>
-                        </li>
-                        <li class="text-center">
-                            <a class="page-scroll color-white" href="#resume">Resume</a>
+                            <a class="page-scroll color-white" href="#work">Work</a>
                         </li>
                         <li class="text-center">
                             <a class="page-scroll color-white" href="#contact">Contact</a>

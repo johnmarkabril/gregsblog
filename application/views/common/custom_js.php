@@ -23,4 +23,11 @@
             event.preventDefault();
         });
     });
+
+ $(document).ready(function(){
+
+        $("#button-dl-resume").click(function(){
+            location.href="<?php base_url(); ?>public/FARRAH-MAE-GREGORIO.pdf";
+        });
+    });
 </script>
