@@ -1,19 +1,11 @@
-<section id="contact">
+<div id="contact" class="container">
+  <div class="customize-title">CONTACT</div>
+  <p class="text-center"><i>Don't Be Shy. Get In Touch</i></p>
 
-    <div class="row">
-        <div class="col-md-12" style="padding-left: 150px; padding-right: 150px;">
-            <div class="ibox float-e-margins">
-                <div class="ibox-content" style="padding-top: 20px;">
                 <div class="row">
-                    <div class="col-md-12">
-                        <center>
-                            <img src="<?php echo base_url();?>public/img/say-hello.png" style="height: 50px; width: 100%;">
-                            <p><strong>DON'T BE SHY. GET IN TOUCH.</strong></p>
-                        </center>
-                    </div>
                     <div class="col-md-6">
                         <center>
-                            <h3><strong>CONTACT ME DIRECTLY</strong></h3>
+                            <h5><strong>CONTACT ME DIRECTLY</strong></h5>
                             <p><span class="glyphicon glyphicon-map-marker"></span> Caloocan, Philippines</p>
                             <p><span class="glyphicon glyphicon-phone"></span> +639 484 410 511</p>
                             <p><span class="glyphicon glyphicon-envelope"></span> frrhmgrgrio@gmail.com</p>
@@ -21,7 +13,7 @@
                     </div>
                     <div class="col-md-6">
                         <center>
-                            <h3><strong>FOLLOW ME ONLINE</strong></h3>
+                            <h5><strong>FOLLOW ME ONLINE</strong></h5>
 
                         <a href="https://www.facebook.com/Frrhmgrgrio">
                             <span class="fa-stack fa-lg">
@@ -51,7 +43,7 @@
 
                         <div class="col-md-12" style="padding-top: 20px;">
                         <center>
-                            <h3><strong>HERE'S MY RESUME</strong></h3>
+                            <h5><strong>HERE'S MY RESUME</strong></h5>
                             <button type="button" class="btn btn-primary" id="button-dl-resume" style="width: 70%;">
                                 <span class="glyphicon glyphicon-download-alt"></span> FARRAH MAE GREGORIO's resume
                             </button>
@@ -59,10 +51,5 @@
                     </div>
                     </div>
                 </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        
-</section>
+
+</div>

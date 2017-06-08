@@ -6,17 +6,20 @@ class Home extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-        $this->curpage="home";
+        $this->curpage= "Home";
+        $this->load->model("About_model");
+        $this->load->model("Work_model");
     }
 
 	public function index()
 	{
 		$details = array(
-
+			'get_all_about'	=>	$this->About_model->get_all_about(),
+			'get_all_work'	=>	$this->Work_model->get_all_work()
 		);
+		
+		$data['content'] = $this->load->view('homecontent', $details, TRUE);
 		$data['curpage'] = $this->curpage;
-		$data['content'] = $this->load->view('home.php', $details, TRUE);
-		$this->load->view('common_files.php', $data);
-
+		$this->load->view('home', $data);
 	}
 }
