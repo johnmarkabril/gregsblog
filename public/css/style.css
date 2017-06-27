@@ -1,4 +1,26 @@
-  <style>
+.pad-bot-fifty {
+    padding-bottom: 50px;
+}
+.min-height-mw {
+    min-height: 320px;
+    background-color: #E5E5E5; 
+    padding: 10px;
+}
+
+.height-mw-img {
+    height: 168.656px;
+}
+
+.pad-ten {
+    padding: 10px;
+}
+
+.margin-mw {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
   body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
@@ -10,7 +32,7 @@
       color: #111;
   }
   .container {
-      padding: 80px 120px;
+      padding: 80px 120px 0 120px;
   }
   .person {
       border: 10px solid transparent;
@@ -99,7 +121,7 @@
       opacity: 0.9;
   }
   .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
+      color: #FFFFFF !important;
   }
   .navbar-nav li a:hover {
       color: #fff !important;
@@ -139,4 +161,9 @@
   textarea {
       resize: none;
   }
-  </style>
+ 
+
+
+.no-pad {
+    padding: 0px;
+}

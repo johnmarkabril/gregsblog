@@ -10,7 +10,7 @@
   <div class="row">
     <div class="col-md-3 animated slideInLeft">
       <center>
-        <img src="<?php echo base_url();?>/public/img/header/<?php echo $gaa->IMAGE; ?>" class="img-prof">
+        <img src="<?php echo base_url();?>public/img/header/<?php echo $gaa->IMAGE; ?>" class="img-prof">
         
       </center>
     </div>
